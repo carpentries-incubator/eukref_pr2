@@ -20,8 +20,10 @@ raxmlHPC-PTHREADS-SSE3 -T 4 -m GTRCAT -c 25 -e 0.001 -p 31415 -f a -N 100 -x 029
 Constraint trees: You can use a constraint tree in RAxML (-g option), which will allow you to “dictate” how some part of the tree should look like based on previously published relationships for your clade, for example, based on morphology and/or multigene phylogeny. Constraint trees should be used with caution and should ONLY constrain robust relationships (those observed in multiple studies) since it is desirable to avoid fitting the tree into your personal favorite topology. All taxa in the constraint tree must be in the alignment and names in the alignment an in the constraint tree must match exactly. Moreover, constraint tree cannot contain taxa not present in the alignment. Constrained trees can be edited in Mesquite.
 
 > ## Alternative: Build tree using FastTree
-> FastTree is very easy to install and gives you “quick and dirty” tree, in case you don’t want to or can’t 
-> wait for RAxML tree or in cases when the number of taxa is too high (more than several thousand).
+> FastTree is very easy to install and gives you “quick and dirty” tree, in case you don’t 
+> want to or can’t 
+> wait for RAxML tree or in cases when the number of taxa is too high (more than several
+> thousand).
 > 
 > ~~~
 > fasttreeMP -gtr -nt NAME.trimal.fasta > NAME.tre
