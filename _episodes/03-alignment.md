@@ -29,7 +29,7 @@ mafft --reorder --auto NAME.clustered.fasta > NAME_aligned.fasta
 > cmalign --outformat AFA -o NAME_aligned_infernal.fasta SSUref.cmm NAME.clustered.fasta
 > sed 's/\./-/g' NAME_aligned_infernal.fasta > NAME_aligned.fasta
 > ~~~
->{: .langauge-bash}
+>{: .language-bash}
 {: .callout}
 
 > ## Alternative: Align using SINA*
@@ -50,5 +50,7 @@ mafft --reorder --auto NAME.clustered.fasta > NAME_aligned.fasta
 trimal -in NAME_aligned.fasta -out NAME.trimal.fasta -gt 0.3 -st 0.001
 ~~~
 {: .language-bash}
+
+(NOTE: Add explanation of options and flags for all function calls.)
 
 {% include links.md %}
