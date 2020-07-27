@@ -29,8 +29,6 @@ grep –A 1 -i “NAME” silva_reference_database.fasta > NAME.fasta
 ~~~
 {: .language-bash)
 
-OR
-
 ~~~
 grep –A 1 -i “NAME” PR2_reference_database.fasta > NAME.fasta
 ~~~
