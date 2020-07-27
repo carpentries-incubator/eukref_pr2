@@ -29,7 +29,7 @@ Constraint trees: You can use a constraint tree in RAxML (-g option), which will
 > fasttreeMP -gtr -nt NAME.trimal.fasta > NAME.tre
 > ~~~
 > {: .language-bash}
-{.callout}
+{: .callout}
 
 ## Visualize tree using FigTree.
 
