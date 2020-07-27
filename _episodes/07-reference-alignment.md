@@ -44,7 +44,7 @@ mafft --reorder --auto current_DB.clustered.fasta > current_DB_aligned.fasta
 > sed 's/\./-/g' current_DB_aligned_infernal.fasta > current_DB_aligned.fasta
 > ~~~
 > {: .language-bash}
-{.callout}
+{: .callout}
 
 
 > ## Alternative: Align using SINA*
