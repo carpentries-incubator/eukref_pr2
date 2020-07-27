@@ -37,6 +37,6 @@ raxmlHPC-PTHREADS-SSE3 -T 4 -m GTRCAT -c 25 -p 31415 -x 20398 -d -f a -N 100 -n 
 > fasttreeMP -gtr -nt current_DB.trim.fasta > NAME_fasttree.tre
 > ~~~
 > {: .language-bash}
-{.callout}
+{: .callout}
 
 {% include links.md %}
